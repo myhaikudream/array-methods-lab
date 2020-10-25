@@ -1,23 +1,38 @@
-def using_include(array, element)
+ def using_include(array, element)
+     
+    array.include? (element)
+    
+ end
 
-end
 
-def using_sort(array)
 
-end
+ def using_sort(array)
+    ["Wow" , "I", "am" , "learning", "arrays"]
+    array.sort
 
-def using_reverse(array)
+ end
 
-end
+ def using_reverse(array)
+    ["Wow" , "I", "am" , "learning", "arrays"]
+    array.reverse
 
-def using_first(array)
 
-end
+ end
 
-def using_last(array)
+ def using_first(array)
+    ["Wow" , "I", "am" , "learning", "arrays"]
+    array.first
 
-end
+ end
 
-def using_size(array)
+ def using_last(array)
+    ["Wow" , "I", "am" , "learning", "arrays"]
+    array.last
+
+ end
+
+ def using_size(array)
+    ["Wow" , "I", "am" , "learning", "arrays"]
+    array.size 
 
 end
